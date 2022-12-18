@@ -1,0 +1,9 @@
+first register user 
+1) if user is not register then check password length
+2) then encrypt the password (bcrypt lib)
+3) save this password and other fields into db
+4) create access token (jwt) with "ACCESS_TOKEN_SECRET_KEY" and saved into cookies with {httpOnly:true, path:'/users/refresh_token'}
+5) 
+
+
+node_modules
